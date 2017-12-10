@@ -10,10 +10,10 @@ parameters:
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
     allowedMethods: ['*']
     # Configure requests allowed from specific origins.
-    allowedOrigins: ['http://polarus.react.site:3000', 'http://localhost:3000', '*']
+    allowedOrigins: ['http://polarus.react.site:3000', 'http://localhost:3000', 'https://cors-anywhere.herokuapp.com', 'http://cors-anywhere.herokuapp.com', '*']
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: true
     # Sets the Access-Control-Max-Age header.
-    maxAge: 1000
+    maxAge: false
     # Sets the Access-Control-Allow-Credentials header.
-    supportsCredentials: false
+    supportsCredentials: true
