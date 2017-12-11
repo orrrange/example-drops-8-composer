@@ -14,6 +14,6 @@ parameters:
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: true
     # Sets the Access-Control-Max-Age header.
-    maxAge: false
+    maxAge: 1000
     # Sets the Access-Control-Allow-Credentials header.
-    supportsCredentials: true
+    supportsCredentials: false
